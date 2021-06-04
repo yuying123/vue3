@@ -21,7 +21,7 @@ export default {
     const { list, getList } = useList();
     const { keywords, filterList } = filter(list);
     console.log('yyy')
-    console.log('yyy')
+    // console.log('yyy')
 
     return {
       list: filterList,
